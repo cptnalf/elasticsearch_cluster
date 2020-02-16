@@ -1,0 +1,10 @@
+node.name: logstash_1
+pipeline.id: main
+path.config: /usr/share/logstash/config/injest.conf
+
+queue.type: persisted
+
+http.host: 0.0.0.0
+http.port: 9600
+
+
